@@ -27,3 +27,8 @@ Installing an older version over a newer one is refused.
 
 Open SFirewall, Blocks window, Settings, **Uninstall SFirewall**. It needs your partner's code,
 is refused while a Focus or Power block is running, and texts your partner first.
+
+## Support and privacy
+
+- [Support](https://markschwab17.github.io/sfirewall-releases/support.html)
+- [Privacy policy](https://markschwab17.github.io/sfirewall-releases/privacy.html)
