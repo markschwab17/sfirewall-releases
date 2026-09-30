@@ -35,7 +35,9 @@
 <ul>
 <li><strong>Apple</strong>: iCloud (CloudKit) for sync and partner mode, and the public App Store search and lookup service when you search for an app to block. Only your search words or the app's store ID are sent.</li>
 <li><strong>Public adult site lists</strong>: both apps download public lists of adult websites once a day to keep the adult block current, from raw.githubusercontent.com (the StevenBlack and HaGeZi lists) and from dsi.ut-capitole.fr (the UT1 list of the Universit&eacute; Toulouse Capitole, used under CC BY-SA 4.0). Nothing about you is sent beyond a normal web request.</li>
-<li><strong>Cloudflare (Mac only)</strong>: the Mac app answers your Mac's website lookups through Cloudflare for Families (1.1.1.3) over encrypted DNS, which also filters malware and adult sites. Cloudflare's own privacy policy applies to those lookups.</li>
+<li><strong>Cloudflare on the Mac</strong>: the Mac app answers your Mac's website lookups through Cloudflare for Families (1.1.1.3) over encrypted DNS, which also filters malware and adult sites.</li>
+<li><strong>Cloudflare on the iPhone (Filter every app, optional)</strong>: if you turn on Filter every app, your iPhone sends the names of the websites and services it looks up (DNS queries) over encrypted DNS to Cloudflare's 1.1.1.1 for Families resolver (family.cloudflare-dns.com), which answers them and blocks adult and malware sites. This is how every app on the phone finds sites, so it covers all apps, not only SFirewall. You can switch it off in Settings, General, VPN &amp; Device Management, DNS (your partner is told) or remove it in SFirewall with the partner code.</li>
+<li>SFirewall and its developer never see these lookups. Cloudflare handles them under its own <a href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/">1.1.1.1 privacy policy</a>.</li>
 </ul>
 
 <h2>Deleting your data</h2>
